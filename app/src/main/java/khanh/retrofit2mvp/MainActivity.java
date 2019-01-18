@@ -12,7 +12,7 @@ import khanh.retrofit2mvp.Presenter.ProductsPresenter;
 public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.recyclerView)
-    private RecyclerView recyclerView;
+    RecyclerView recyclerView;
     private ProductsPresenter productsPresenter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,5 +25,6 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.btnGetData)
     public void getData() {
         productsPresenter.fetchData();
+
     }
 }
