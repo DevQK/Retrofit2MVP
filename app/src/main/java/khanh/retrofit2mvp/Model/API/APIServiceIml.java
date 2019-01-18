@@ -1,12 +1,11 @@
-package khanh.retrofit2mvp.Presenter.Listtener;
+package khanh.retrofit2mvp.Model.API;
 
 import android.util.Log;
 
 import org.json.JSONArray;
 
-import khanh.retrofit2mvp.Model.API.APIClient;
-import khanh.retrofit2mvp.Model.API.APIService;
 import khanh.retrofit2mvp.Model.Products;
+import khanh.retrofit2mvp.Presenter.Listtener.FetchDataCallback;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;

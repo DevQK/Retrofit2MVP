@@ -8,7 +8,7 @@ import android.util.Log;
 import java.util.ArrayList;
 
 import khanh.retrofit2mvp.Model.Products;
-import khanh.retrofit2mvp.Presenter.Listtener.APIServiceIml;
+import khanh.retrofit2mvp.Model.API.APIServiceIml;
 import khanh.retrofit2mvp.Presenter.Listtener.FetchDataCallback;
 import khanh.retrofit2mvp.View.ProductsAdapter;
 
