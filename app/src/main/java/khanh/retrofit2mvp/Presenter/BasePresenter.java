@@ -1,5 +1,11 @@
 package khanh.retrofit2mvp.Presenter;
 
-public class BasePresenter {
+import android.content.Context;
 
+public class BasePresenter {
+    protected Context ct;
+
+    public BasePresenter(Context ct) {
+        this.ct = ct;
+    }
 }
