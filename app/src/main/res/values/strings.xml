@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Retrofit2MVP</string>
     <string name="btnGetData">Buton Get Data</string>
+    <string name="action_settings">Settings</string>
 </resources>
