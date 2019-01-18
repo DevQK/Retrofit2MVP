@@ -20,6 +20,12 @@ import khanh.retrofit2mvp.R;
 public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ProductHolder> {
     private List<Products> dt;
     private Context ct;
+
+    public ProductsAdapter(List<Products> dt, Context ct) {
+        this.dt = dt;
+        this.ct = ct;
+    }
+
     @Override
     public ProductHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(ct).inflate(R.layout.itemrecyclerview, parent, false);
