@@ -13,7 +13,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import khanh.retrofit2mvp.Model.CryptoData;
+import khanh.retrofit2mvp.Model.ItemModel.CryptoData;
 import khanh.retrofit2mvp.Model.MainActivityContextModule;
 import khanh.retrofit2mvp.Model.MainActivityMvpModule;
 import khanh.retrofit2mvp.Presenter.PresenterImpl;
